@@ -3,8 +3,8 @@ body {
     font-family: Arial, Helvetica, sans-seri
 }
 #conteneur {
-    background: hotpink;
-    width: 1080px;
+    background: rgb(240, 234, 237);
+    width: 1200px;
     margin: 0 auto;
 }
 header {
@@ -12,17 +12,173 @@ header {
 .header {  
     background: rgb(139, 122, 46);
 }
-.logo {
-    width: 300px;
-    background: rgb(0, 238, 255);
+aside {
+    width: 10%;
+    height: 150px;
+    float: left;
+    margin: 10px;
+}
+section {
+    width: 35%;
+    height: 150px;
+    float: left;
+    margin: 0 auto;
+    padding: 5px;
+    text-align: center;
+}
+.aide {
+    height: 150px;
+    width: 25%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #33ccff;
+}
+.besoin h2 {
+    color: #33ccff;
+    font-size: 30px;
+    margin: 0;
+    padding: 10px;
+}
+.telephone {
+    position: relative;
+}
+.telephone p {
+    position: relative;
+    bottom: 25px;
 }
 .form {
+    background: #33ccff;
     width: 300px;
-    background: rgb(240, 118, 118)
+    height: 100px;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+.form p {
+    color: #fff;
+    float: right;
+    padding: 15px;
+}
+.img {
+    padding: 10px;
+}
+input, textarea, select, button {
+    text-align: center;
+    font-size: 15px;
+    background: #33ccff;
+    width : 300px;
+    margin: 0;
 }
 h1 {
-    font-size: 40px;
+    font-size: 45px;
+    font-style: italic;
+    font-weight: bold;
+    padding: 5px;
 }
 h2 {
-    background: rgb(49, 161, 73);
+    /* width: 70%; */
+    font-style: italic;
+    /* font-weight: bold; */
+    font-size: 18px;
+    padding: 20px;
+    color: #ff99cc;
+}
+nav {
+    background: #33ccff;
+    height: 25px;
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+}
+nav a:hover {
+    color: #fff;
+    background: #ff99cc;
+    margin: 10px;
+}
+li {
+    display: inline;
+    padding: 40px;
+}
+.milieu {
+    background: palevioletred;
+    width: 1200px;
+    display: inline-block;
+}
+.paiment {
+    height: 150px;
+    width: 25%;
+    float: left;
+}
+.paiment h2, .qui h2, .services h2 {
+    color: #33ccff;
+    font-size: 22px;
+    margin: 0;
+    padding: 10px;
+}
+.paiment p {
+    font-size: 19px;
+    padding: 10px;
+}
+.qui {
+    width: 55%;
+    height: 150px;
+    float: left;
+}
+.qui p {
+    text-align: left;
+    font-size: 16px;
+}
+.services {
+    height: 150px;
+    width: 20%;
+    float: left;
+}
+.services p {
+    color: #000;
+    float: right;
+    padding: 5px;
+}
+.block {
+    display: inline-block;
+}
+.plan {
+    width: 400px;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+td, th {
+    border: 1px solid rgb(190,190,190);
+    padding: 10px 20px;
+  }
+  td {
+      text-align: center;
+  }
+  caption {
+      padding: 10px;
+  }
+.navFooter {
+    background: #33ccff;
+}
+.navFooter a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    margin: 0;
+}
+.navFooter a:hover {
+    color: #fff;
+    background: #ff99cc;
+    margin: 0;
+}
+.navFooter li {
+    display: inline;
+    padding: 20px;
+}
+.clear {
+    clear: both;
 }
