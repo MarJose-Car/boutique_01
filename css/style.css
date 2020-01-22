@@ -1,0 +1,28 @@
+body {
+    background: rgb(204, 230, 166);
+    font-family: Arial, Helvetica, sans-seri
+}
+#conteneur {
+    background: hotpink;
+    width: 1080px;
+    margin: 0 auto;
+}
+header {
+}
+.header {  
+    background: rgb(139, 122, 46);
+}
+.logo {
+    width: 300px;
+    background: rgb(0, 238, 255);
+}
+.form {
+    width: 300px;
+    background: rgb(240, 118, 118)
+}
+h1 {
+    font-size: 40px;
+}
+h2 {
+    background: rgb(49, 161, 73);
+}

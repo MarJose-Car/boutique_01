@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Display: inline; et display inline-block</title>
+        <style>
+            body {
+                background: rgb(240, 206, 165);
+            }
+            main {
+                width: 600px;
+                background: #fff;
+                margin: 0 auto;
+            }
+            .orange {
+                background: rgb(245, 182, 64);
+            }
+            main p {
+                /* display: inline; */
+                display: inline-block;
+                width: 190px;
+                padding: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <h1><code>Display: inline; et display inline-block;</code></h1>
+            <!-- les commentaires vides entre les p sont là pour éviter les espaces blancs générés para la propriété display: inline-block; NE PAS LES ENLEVER !!!! -->
+            <p>1- Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus delectus dolorum labore quo vel error odio commodi alias magni, aliquam natus ducimus aspernatur, expedita neque eligendi ipsa ullam ab cum.</p><!--  --><p 
+            class="orange">2- Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui porro, error minima vel facere nesciunt eligendi aliquid iure debitis quos distinctio animi cupiditate enim. Quos veritatis ad tempore quas sapiente.</p><!--  --><p>
+            <!--  -->3- Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quam fuga officiis facilis inventore earum dicta amet voluptas corrupti veniam neque, maxime beatae animi nesciunt quae omnis esse, in soluta?</p>
+            <a href="https://www.alsacreations.com/astuce/lire/1432-display-inline-block-espaces-indesirables.html" target="_blank">display in line block et l'espace blanc</a>
+        </main>   
+    </body>
+</html>
