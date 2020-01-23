@@ -1,6 +1,6 @@
 body {
-    background: rgb(204, 230, 166);
-    font-family: Arial, Helvetica, sans-seri
+    background: url(../img/fond.png);
+    font-family: Arial, Helvetica, sans-serif;
 }
 #conteneur {
     background: rgb(240, 234, 237);
@@ -99,12 +99,17 @@ nav a:hover {
     background: #ff99cc;
     margin: 10px;
 }
+.active {
+    background: #ff99cc;
+    padding-bottom: 5px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
 li {
     display: inline;
     padding: 40px;
 }
 .milieu {
-    background: palevioletred;
     width: 1200px;
     display: inline-block;
 }
@@ -124,6 +129,8 @@ li {
     padding: 10px;
 }
 .qui {
+    border-right: 1px solid #000;
+    border-left: 1px solid #000;
     width: 55%;
     height: 150px;
     float: left;
@@ -142,25 +149,73 @@ li {
     float: right;
     padding: 5px;
 }
-.block {
-    display: inline-block;
+.tableau {
+    border: 1px solid #000;
+    height: 180px;
+    width: 380px;
+    margin: 5px;
 }
-.plan {
-    width: 400px;
+.tableau header {
+    float: right;
+}
+.tableau header h2 {
+    text-align: center;
+    color: #000;
+    position: relative;
+    right: 150px;
+    bottom: 20px;
+}
+.tableau p {
+    text-align: justify;
+    font-size: 15px;
+}
+.plan p {
+    position: relative;
+    top: 20px;
+}
+.coup p {
+    position: relative;
+    top: 20px;
+}
+.plaisir p {
+    position: relative;
+    bottom: 20px;
+
+}
+.robe {
     float: left;
-    margin: 0;
-    padding: 0;
+    padding-top: 30px;
 }
-td, th {
-    border: 1px solid rgb(190,190,190);
-    padding: 10px 20px;
-  }
-  td {
-      text-align: center;
-  }
-  caption {
-      padding: 10px;
-  }
+.talons {
+    float: left;
+    padding-top: 40px;
+}
+.chemise {
+    position: relative;
+    top: 40px;
+    right: 60px;
+}
+.plan, .coup {
+    width: 280px;
+    height: 200px;
+    position: relative;
+    bottom: 30px;
+    float:left;
+}
+.plaisir {
+    width: 280px;
+    position: relative;
+    bottom: 30px;
+    /* text-align: justify; */
+    float: right;
+}
+.plan h2, .coup h2, .plaisir h2 {
+    text-align: center;
+    color: #000;
+}
+.tableau pa {
+    text-align: right;
+}
 .navFooter {
     background: #33ccff;
 }
